@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.no-scrollbar::-webkit-scrollbar{
+    display: none;
+}
+.audio-player {
+    width: 100%; /* Adjust the width as necessary */
+    height: 20px; /* This will help reduce the height */
+     /* Ensure it scales down from the top */
+}
